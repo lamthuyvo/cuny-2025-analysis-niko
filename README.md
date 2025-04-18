@@ -25,11 +25,12 @@ Each of the spreadsheets contain the following columns relevant to the analysis:
 - Removed April to December 2025 from the 'Period' column because there is no data for those months.
 - Downloaded that new spreadsheet to add to the data folder to analyze in Jupyter Notebook.
 
-The notebook tktktktk.ipynb performs the following analyses:
+The notebook retail-sales-project.ipynb performs the following analyses:
 
-#### Part 2: TKTK
+#### Part 2: More Cleaning and Analysis
 
-- Description of what you did with the data
+- Checked the data types and converted the ones in the 'Value' column to numbers.
+- 
 
 
 ## Outputs
