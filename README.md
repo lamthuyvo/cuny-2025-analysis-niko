@@ -18,15 +18,15 @@ Each of the spreadsheets contain the following columns relevant to the analysis:
 
 ## Methodology
 
-The notebook tktktktk.ipynb performs the following analyses:
-
 #### Part 1: Cleaning
 
 - Removed the metadata rows from the raw spreadsheet using Google Sheets.
 - Kept the 'Period' and 'Value' columns.
+- Removed April to December 2025 from the 'Period' column because there is no data for those months.
 - Downloaded that new spreadsheet to add to the data folder to analyze in Jupyter Notebook.
 
-  
+The notebook tktktktk.ipynb performs the following analyses:
+
 #### Part 2: TKTK
 
 - Description of what you did with the data
