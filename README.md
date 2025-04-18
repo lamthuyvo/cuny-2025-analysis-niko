@@ -29,13 +29,16 @@ The notebook retail-sales-project.ipynb performs the following analyses:
 
 #### Part 2: More Cleaning and Analysis
 
-- Checked the data types and converted the ones in the 'Value' column to numbers.
-- 
+- Checked the data types and converted 'Value' column to numeric values.
+- Calculated a 3-month moving average.
+- Calculated the average to figure if a month had below or above average sales.
+- Calculated year-over-year growth.
+- Rounded the numbers to make them more readable.
 
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains TKTK: output/tktktk.csv.
+The results from above are saved as: output/retail_sales_analysis.csv.
 
 ## Running the analysis yourself
 
