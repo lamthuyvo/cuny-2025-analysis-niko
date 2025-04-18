@@ -14,15 +14,17 @@ The spreadsheets come from the following sources:
 Each of the spreadsheets contain the following columns relevant to the analysis:
 
 - 'Period' — The month and year that the data for report was released.
-- 'Value' — The sales for that month in the millions of dollars.
+- 'Value' — The sales for that month in the millions of dollars seasonally adjusted except for March 2025.
 
 ## Methodology
 
 The notebook tktktktk.ipynb performs the following analyses:
 
-#### Part 1: TKTK
+#### Part 1: Cleaning
 
-- Description of what you did with the data
+- Removed the metadata rows from the raw spreadsheet using Google Sheets.
+- Kept the 'Period' and 'Value' columns.
+- Downloaded that new spreadsheet to add to the data folder to analyze in Jupyter Notebook.
 
   
 #### Part 2: TKTK
